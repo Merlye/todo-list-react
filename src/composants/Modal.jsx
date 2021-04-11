@@ -8,10 +8,6 @@ export const Modal = ({ todo, modificationTache, setVisible, visible }) => {
         <Fragment>
             <aside
                 className='modal'
-                aria-hidden='false'
-                role='dialog'
-                aria-modal='false'
-                aria-labelledby='titreModal'
                 style={{ transform: visible ? 'translate(0vh)' : 'translate(-100vh)', opacity: visible ? '1' : '0' }}>
                 <div className='modal-conteneur'>
                     <div className='modal-header'>
